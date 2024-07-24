@@ -1,0 +1,23 @@
+#header,
+#footer{
+    background-color: rgb(189, 189, 189);
+}
+
+.carousel-item img{
+    max-height: 680px;
+    width: 100%;
+}
+
+textarea{
+    height: 90px;
+    resize: none;
+}
+
+#social-medias li{
+    list-style: none;
+}
+
+iframe{
+    height: 312px;
+    border: 0;
+}
