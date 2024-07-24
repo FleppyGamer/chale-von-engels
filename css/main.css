@@ -8,6 +8,11 @@
     width: 100%;
 }
 
+.tab-content{
+    display: flex;
+    margin: auto;
+}
+
 textarea{
     height: 90px;
     resize: none;
