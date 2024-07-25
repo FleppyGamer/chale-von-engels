@@ -6,6 +6,20 @@ This is a website project for a fictional mountain house condominium that works 
 ## Access the project!
 Link: https://chale-von-engels.vercel.app
 
+## [1.0] - 2024-07-25
+### Added:
+- Final design:
+  - Fonts Poppins and Oswald;
+  - Final colors to the header, footer and the body elements;
+- Icons to the following elements:
+  - Header navbar (Mobile devices);
+  - Contact section subtitles;
+- Profile pictures in the rating section;
+
+### Modified:
+- The button in the contact form gained new colors;
+- The navbar toggler was better integrated to the header's design: Now the button has a white icon and transparent background;
+
 ## [0.2] - 2024-07-25
 ### Added:
 - Ratings section with the average rating of the hotel and some of the good ratings given by previous hosts;
