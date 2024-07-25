@@ -15,6 +15,7 @@ Link: https://chale-von-engels.vercel.app
   - Header navbar (Mobile devices);
   - Contact section subtitles;
 - Profile pictures in the rating section;
+- An icon to the head of the page;
 
 ### Modified:
 - The button in the contact form gained new colors;
