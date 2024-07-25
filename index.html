@@ -4,22 +4,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Von Engels - Chalés Suiços</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
-    <header id="header" class="navbar navbar-expand-md sticky-top">
+    <header id="header" class="navbar navbar-expand-lg  sticky-top">
         <div class="container">
-            <h1 class="navbar-brand m-0">
-                <i class="bi bi-backpack2-fill me-1"></i>
-                Von Engels
-            </h1>
-            <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#header-menu">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <nav id="header-menu" class="collapse navbar-collapse justify-content-end mt-3 mt-md-0">
-                <ul class="nav nav-pills d-block d-md-flex">
+            <h1 class="navbar-brand fs-3 m-0 section-title fw-bold">Von Engels</h1>
+            <div class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#header-menu">
+                <i class="bi bi-list fs-1"></i>
+            </div>
+            <nav id="header-menu" class="collapse navbar-collapse justify-content-end mt-3 mt-lg-0">
+                <ul class="nav nav-pills d-block d-lg-flex">
                     <li class="nav-item">
                         <a href="#about" class="nav-link active">Os Chalés</a>
                     </li>
@@ -74,7 +73,7 @@
                         <img src="img/cozy-mountain-house.jpg" alt="Imagem do Chalé" class="d-block w-100 rounded">
                     </div>
                     <div class="col-lg-8">
-                        <h2 class="mb-2 text-center text-lg-start">Os Chalés</h2>
+                        <h2 class="mb-2 text-center text-lg-start section-title">Os Chalés</h2>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint laudantium repudiandae, rem, magni cumque dolore corporis doloremque animi, sed asperiores nam minus modi nobis. Consectetur recusandae explicabo voluptas velit necessitatibus.</p>
                     </div>
                 </div>
@@ -83,11 +82,11 @@
         <section id="perks" class="py-5">
             <div class="container">
                 <div class="row text-center mb-3">
-                    <h2>Nossos Mimos</h2>
+                    <h2 class="section-title">Nossos Mimos</h2>
                 </div>
                 <div class="row">
                     <aside class="col-md-12 col-lg-3 mb-3 mb-lg-0">
-                        <nav>
+                        <nav id="perks-menu">
                             <ul class="nav nav-pills flex-column fw-bold text-start">
                                 <li class="nav-item mb-1">
                                     <a class="nav-link active" data-bs-toggle="tab" data-bs-target="#inside">Interior do Chalé</a>
@@ -107,17 +106,17 @@
                                 <div class="row">
                                     <div class="col-md-4 col-lg-4 mb-2">
                                         <img src="img/fireplace.jpg" alt="Lareira" class="d-block w-100 rounded">
-                                        <h3 class="mt-2">Lareira</h3>
+                                        <h3 class="my-2 fs-4 section-title fs-2">Lareira</h3>
                                         <p>A madeira para a lareira fica por conta do hóspede.</p>
                                     </div>
                                     <div class="col-md-4 col-lg-4 mb-2">
                                         <img src="img/towels.jpg" alt="Toalhas" class="d-block w-100 rounded">
-                                        <h3 class="mt-2">Toalhas</h3>
+                                        <h3 class="my-2 fs-4 section-title fs-2">Toalhas</h3>
                                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                                     </div>
                                     <div class="col-md-4 col-lg-4 mb-2">
                                         <img src="img/blankets.jpg" alt="Cobertores" class="d-block w-100 rounded">
-                                        <h3 class="mt-2">Cobertores</h3>
+                                        <h3 class="my-2 fs-4 section-title fs-2">Cobertores</h3>
                                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                                     </div>
                                 </div>
@@ -126,17 +125,17 @@
                                 <div class="row">
                                     <div class="col-md-4 col-lg-4 mb-2">
                                         <img src="img/breakfast.jpg" alt="Pão e ovos mexidos" class="d-block w-100 rounded">
-                                        <h3 class="mt-2">Café da Manhã</h3>
+                                        <h3 class="my-2 fs-4 section-title fs-2">Café da Manhã</h3>
                                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                                     </div>
                                     <div class="col-md-4 col-lg-4 mb-2">
                                         <img src="img/lunch.jpg" alt="Macarronada" class="d-block w-100 rounded">
-                                        <h3 class="mt-2">Almoço</h3>
+                                        <h3 class="my-2 fs-4 section-title fs-2">Almoço</h3>
                                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                                     </div>
                                     <div class="col-md-4 col-lg-4 mb-2">
                                         <img src="img/dinner.jpg" alt="Hambúrguer" class="d-block w-100 rounded">
-                                        <h3 class="mt-2">Jantar</h3>
+                                        <h3 class="my-2 fs-4 section-title fs-2">Jantar</h3>
                                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                                     </div>
                                 </div>
@@ -145,17 +144,17 @@
                                 <div class="row">
                                     <div class="col-md-4 col-lg-4 mb-2">
                                         <img src="img/swimming-pool.jpg" alt="Piscina aquecida do hotel" class="d-block w-100 rounded">
-                                        <h3 class="mt-2">Piscina Aquecida</h3>
+                                        <h3 class="my-2 fs-4 section-title fs-2">Piscina Aquecida</h3>
                                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                                     </div>
                                     <div class="col-md-4 col-lg-4 mb-2">
                                         <img src="img/golf-field.jpg" alt="Campo de golf do hotel" class="d-block w-100 rounded">
-                                        <h3 class="mt-2">Campo de Golf</h3>
+                                        <h3 class="my-2 fs-4 section-title fs-2">Campo de Golf</h3>
                                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                                     </div>
                                     <div class="col-md-4 col-lg-4 mb-2">
                                         <img src="img/riding-a-horse.jpg" alt="Uma pessoa passeando de cavalo" class="d-block w-100 rounded">
-                                        <h3 class="mt-2">Passeios a Cavalo</h3>
+                                        <h3 class="my-2 fs-4 section-title fs-2">Passeios a Cavalo</h3>
                                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                                     </div>
                                 </div>
@@ -168,7 +167,7 @@
         <section id="ratings" class="py-5">
             <div class="container">
                 <div class="row mb-4 text-center">
-                    <h2>Somos o Hotel Melhor Avaliado de Campos do Jordão!</h2>
+                    <h2 class="section-title">Somos o Hotel Melhor Avaliado de Campos do Jordão!</h2>
                     <div id="avg-rating" class="my-2">
                         <i class="bi bi-star-fill fs-1"></i>
                         <i class="bi bi-star-fill fs-1"></i>
@@ -182,17 +181,17 @@
                 <div class="row justify-content-center">
                     <div class="col-md-6 col-lg-4 mb-3 mb-lg-0 text-center">
                         <img src="img/icons/olivia-avatar.png" alt="Foto de perfil da Olivia">
-                        <h3 class="fs-4 mt-3 mb-1">Olivia Freitas</h3>
+                        <h3 class="fs-4 mt-3 mb-1 section-title">Olivia Freitas</h3>
                         <p class="fs-5 fst-italic text-secondary">"Lorem ipsum dolor sit amet consectetur adipisicing elit."</p>
                     </div>
                     <div class="col-md-6 col-lg-4 mb-3 mb-lg-0 text-center">
                         <img src="img/icons/amanda-avatar.png" alt="Foto de perfil da Amanda">
-                        <h3 class="fs-4 mt-3 mb-1">Amanda Dias</h3>
+                        <h3 class="fs-4 mt-3 mb-1 section-title">Amanda Dias</h3>
                         <p class="fs-5 fst-italic text-secondary">"Lorem ipsum dolor sit amet consectetur adipisicing elit."</p>
                     </div>
                     <div class="col-md-6 col-lg-4 mb-3 mb-lg-0 text-center">
                         <img src="img/icons/gustavo-avatar.png" alt="Foto de perfil do Gustavo">
-                        <h3 class="fs-4 mt-3 mb-1">Gustavo Müller</h3>
+                        <h3 class="fs-4 mt-3 mb-1 section-title">Gustavo Müller</h3>
                         <p class="fs-5 fst-italic text-secondary">"Lorem ipsum dolor sit amet consectetur adipisicing elit."</p>
                     </div>
                 </div>
@@ -200,8 +199,8 @@
         </section>
         <section id="contact" class="py-5">
             <div class="container">
-                <div class="row mb-4 text-center">
-                    <h2>Fale Conosco!</h2>
+                <div class="row mb-3 text-center">
+                    <h2 class="section-title">Fale Conosco!</h2>
                 </div>
                 <div class="row">
                     <div class="col-lg-5 col-xl-4 mb-4">
@@ -227,37 +226,37 @@
                                 <label for="msg" class="form-label mb-1">Sua Mensagem</label>
                                 <textarea id="msg" class="form-control"></textarea>
                             </div>
-                            <button type="button" class="btn w-100">Enviar</button>
+                            <button type="button" class="btn fw-bold w-100">Enviar</button>
                         </form>
                     </div>
                     <div class="col-lg-7 col-xl-8">
                         <div class="row">
-                            <h3>Redes Sociais</h3>
+                            <h3 class="fs-4 section-title">Redes Sociais</h3>
                             <ul id="social-medias" class="d-flex">
                                 <li>
-                                    <a href="#" class="fs-4 me-2">
+                                    <a href="#" class="fs-4 me-3">
                                         <i class="bi bi-youtube"></i>
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="#" class="fs-4 me-2">
+                                    <a href="#" class="fs-4 me-3">
                                         <i class="bi bi-instagram"></i>
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="#" class="fs-4 me-2">
+                                    <a href="#" class="fs-4 me-3">
                                         <i class="bi bi-facebook"></i>
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="#" class="fs-4 me-2">
+                                    <a href="#" class="fs-4 me-3">
                                         <i class="bi bi-whatsapp"></i>
                                     </a>
                                 </li>
                             </ul>
                         </div>
                         <div class="row">
-                            <h3>Endereço</h3>
+                            <h3 class="fs-4 section-title">Endereço</h3>
                             <address>Rua dos Lagos, 1533 - Campos do Jordão, SP</address>
                             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d29438.98238158147!2d-45.60673007366494!3d-22.732968848252348!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94cc89cbf10d10bf%3A0x42ed1a032c8ae78f!2sCampos%20do%20Jord%C3%A3o%2C%20State%20of%20S%C3%A3o%20Paulo%2C%2012460-000!5e0!3m2!1sen!2sbr!4v1721856551311!5m2!1sen!2sbr" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                         </div>

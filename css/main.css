@@ -1,11 +1,46 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.section-title{
+    font-family: 'Oswald', sans-serif;
+}
+
 #header,
-#footer{
-    background-color: rgb(189, 189, 189);
+#footer,
+#perks-menu .nav-pills .nav-item .active,
+form .btn{
+    background-color: #a3222f;
+}
+
+#header h1,
+.navbar-toggler i,
+#header .nav-link,
+#perks-menu .nav-pills .nav-item .active,
+form .btn,
+#footer p{
+    color: white;
+}
+
+.navbar-toggler{
+    background-color: transparent;
+    padding: 0;
+    border: 0;
+}
+
+#header .nav-link.active{
+    background-color: white;
+    color: #a3222f;
 }
 
 .carousel-item img{
     max-height: 720px;
     width: 100%;
+}
+
+#perks-menu .nav-link,
+#social-medias li a{
+    color: #a3222f;
 }
 
 .tab-content{
