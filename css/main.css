@@ -8,10 +8,13 @@ form input{
     font-family: 'Oswald', sans-serif;
 }
 
+#header{
+    align-items: center;
+}
+
 #header,
 #footer,
-#perks-menu .nav-pills .nav-item .active,
-form .btn{
+#perks-menu .nav-pills .nav-item .active{
     background-color: #a3222f;
 }
 
@@ -19,7 +22,6 @@ form .btn{
 .navbar-toggler i,
 #header .nav-link,
 #perks-menu .nav-pills .nav-item .active,
-form .btn,
 #footer p{
     color: white;
 }
@@ -32,7 +34,6 @@ form .btn,
 
 #header .nav-link.active{
     background-color: white;
-    color: #a3222f;
 }
 
 .carousel-item img{
@@ -40,6 +41,7 @@ form .btn,
     width: 100%;
 }
 
+#header .nav-link.active,
 #perks-menu .nav-link,
 #social-medias li a{
     color: #a3222f;
@@ -66,4 +68,10 @@ textarea{
 iframe{
     height: 312px;
     border: 0;
+}
+
+@media screen and (min-width: 992px) {
+    .nav-item .nav-link i{
+        display: none;
+    }
 }
