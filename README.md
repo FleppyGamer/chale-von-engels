@@ -1,7 +1,7 @@
 # Chalés Von Engels
 
 ## About 
-This is a website project for a fictional mountain house condominium that works as a hotel.
+This is a website project for a fictional cottage hotel.
 
 ## Access the project!
 Link: https://chale-von-engels.vercel.app
